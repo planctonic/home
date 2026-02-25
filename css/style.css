@@ -50,7 +50,7 @@ header {
 }
 /* ロゴ画像の設定 */
 #logo img {
-  width: 400px;         /* 基本サイズ */
+  width: 500px;         /* 基本サイズ */
   max-width: 100%;      /* 画面幅より大きくならない */
   height: auto;         /* 縦横比を維持 */
   display: block;       /* ブロック表示で余白が効くように */
@@ -58,7 +58,7 @@ header {
 }
 
 /* スマホなど小さい画面用に調整 */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   #logo img {
     width: 200px;       /* 画面幅に合わせて縮小 */
   }
