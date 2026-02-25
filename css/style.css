@@ -47,10 +47,20 @@ a:hover {
 header {
 	text-align: center;	/*内容を中央よせ*/
 }
-/*ロゴ画像設定*/
+/* ロゴ画像の設定 */
 #logo img {
-	width: 400px;	/*画像幅*/
-	margin: 40px 0 40px 0;	/*ロゴの上と下に40pxスペースを空ける設定*/
+  width: 300px;         /* 基本サイズ */
+  max-width: 100%;      /* 画面幅より大きくならない */
+  height: auto;         /* 縦横比を維持 */
+  display: block;       /* ブロック表示で余白が効くように */
+  margin: 40px 0;       /* 上下マージン40px */
+}
+
+/* スマホなど小さい画面用に調整 */
+@media (max-width: 600px) {
+  #logo img {
+    width: 200px;       /* 画面幅に合わせて縮小 */
+  }
 }
 
 /*トップページのメイン画像
