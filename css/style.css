@@ -121,6 +121,17 @@ header {
              Meiryo,
              sans-serif;
 }
+
+.gallery {
+    ...
+    grid-template-areas:
+        "A A C"
+        "D E E";
+    ...
+}
+...
+
+
 /*コンテンツのh3タグの設定*/
 #contents h3 {
 	clear: both;
