@@ -384,4 +384,5 @@ body {
   background-position: left top; /* 左上基準 */
   background-repeat: no-repeat;  
   background-attachment: fixed;  /* スクロールしても固定 */
+　width: 50%;
 }
