@@ -67,7 +67,7 @@ header {
 /* スマホなど小さい画面用に調整 */
 @media (max-width: 700px) {
   #logo img {
-    width: 200px;       /* 画面幅に合わせて縮小 */
+    width: 300px;       /* 画面幅に合わせて縮小 */
   }
 }
 
