@@ -244,7 +244,7 @@ footer {
 footer a {
 	text-decoration: none;
 	border: none;
-	  color: #000;              /* 常に黒 */
+	  color: #c0c6c9;              /* リンク色 */
   text-decoration: none;    /* 下線なし */
 }
 footer .pr {
