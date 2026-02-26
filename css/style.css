@@ -57,7 +57,7 @@ header {
 }
 /* ロゴ画像の設定 */
 #logo img {
-  width: 500px;         /* 基本サイズ */
+  width: 600px;         /* 基本サイズ */
   max-width: 100%;      /* 画面幅より大きくならない */
   height: auto;         /* 縦横比を維持 */
   display: block;       /* ブロック表示で余白が効くように */
