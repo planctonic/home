@@ -386,3 +386,7 @@ body {
   background-attachment: fixed;  /* スクロールしても固定 */
 　
 }
+
+.small-text {
+  font-size: 5px;
+}
