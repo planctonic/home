@@ -103,16 +103,16 @@ header {
 ---------------------------------------------------------------------------*/
 /*コンテンツのh2タグの設定*/
 #contents h2 {
-	clear: both;
-	margin-bottom: 20px;
+    clear: both;
+    margin-bottom: 30px;
 
-	color: #fff;           /* 白文字 */
-	background: #262626;      /* 黒背景 */
+    color: #000;              /* 文字色 */
+    background: none;         /* 背景削除 */
 
-	padding: 10px 20px;
+    padding-bottom: 10px;     /* 線との間隔 */
+    border-bottom: 3px solid #000;  /* 3px区切り線 */
 
-	border-radius: 0;      /* 角丸なし */
-	font-family: "Droog",
+    font-family: "Droog",
              -apple-system,
              BlinkMacSystemFont,
              "Segoe UI",
