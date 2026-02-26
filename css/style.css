@@ -106,11 +106,11 @@ header {
     clear: both;
     margin-bottom: 30px;
 
-    color: #000;              /* 文字色 */
+    color: #262626;              /* 文字色 */
     background: none;         /* 背景削除 */
 
     padding-bottom: 2px;     /* 線との間隔 */
-    border-bottom: 3px solid #000;  /* 3px区切り線 */
+    border-bottom: 3px solid #262626;  /* 3px区切り線 */
 
     font-family: "Droog",
              -apple-system,
