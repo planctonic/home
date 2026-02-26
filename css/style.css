@@ -306,45 +306,7 @@ body {
 }
 
 
-.gallery {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 30% 30%;
-    grid-template-areas:
-        "A A C"
-        "D E E";
-    gap: 10px;
-}
 
-.gallery .photoA {
-    grid-area: A;
-}
-
-.gallery .photoB {
-    grid-area: B;
-}
-
-.gallery .photoC {
-    grid-area: C;
-}
-
-.gallery .photoD {
-    grid-area: D;
-}
-
-.gallery .photoE {
-    grid-area: E;
-}
-
-.gallery .photoF {
-    grid-area: F;
-}
-
-.gallery img {
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
-}
 
 /*その他
 ---------------------------------------------------------------------------*/
