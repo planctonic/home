@@ -402,16 +402,17 @@ body {
 }
 
 .link-list li a {
-  display: inline-block;
-  padding: 5px 10px;
-  background: #dccb18;   /* 通常色 */
-  color: #fff;
+  font-family: "Droog",
+               "Arial Black",
+               "Helvetica Neue",
+               Arial,
+               sans-serif;
+  font-weight: bold;
+  color: #dccb18;        /* 通常色 */
   text-decoration: none;
-  border-radius: 0;      /* ← 完全な四角 */
-  transition: 0.3s;      /* ホバーを滑らかに */
+  transition: 0.3s;
 }
 
-/* ホバー時 */
 .link-list li a:hover {
-  background: #b8aa14;   /* 少し濃い色 */
+  color: #e83929;        /* ← ホバー色 */
 }
