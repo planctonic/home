@@ -220,7 +220,7 @@ header {
 
 /* ===== Single wide image ===== */
 .full-image {
-  max-width: 700px;
+  max-width: 1000px;  /* gallery-grid と同じ */
   width: 90%;
   margin: 80px auto;
 }
@@ -228,6 +228,7 @@ header {
 .full-image img {
   width: 100%;
   display: block;
+  border-radius: 8px;
 }
 
 /* ===== Smartphone (2 columns) ===== */
