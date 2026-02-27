@@ -63,12 +63,12 @@ header {
   display: flex;
   justify-content: center;  /* 横位置 */
   align-items: center;      /* 縦中央（必要なら） */
-  margin: 70px 0 30px 0;
+  margin: 70px 0 40px 0;
 }
 
 /* ロゴ画像 */
 #logo img {
-  width: 340px;      /* ←ここを変えればサイズ変更可能 */
+  width: 320px;      /* ←ここを変えればサイズ変更可能 */
   max-width: 100%;   /* 画面より大きくならない */
   height: auto;      /* 縦横比維持 */
 }
