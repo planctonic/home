@@ -56,6 +56,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="contents">
 
 
+
+<span id="counter">0000000</span>
+<script>
+fetch('https://api.countapi.xyz/hit/pilonkton.github.io/home')
+.then(r=>r.json())
+.then(d=>{
+  counter.innerText = String(d.value).padStart(7,'0');
+});
+</script>
+
+
+  
+
 <img src="https://visitor-badge.laobi.icu/badge?page_id=pilonkton.home&left_text=&right_color=000000&left_color=ffffff" alt="visitors"> 
   
     2026/02/25　サイトを移設しました<br><br><br>
