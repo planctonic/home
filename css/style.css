@@ -61,7 +61,7 @@ header {
 /* ロゴ全体を中央に */
 #logo {
   display: flex;
-  justify-content: center;  /* 横中央 */
+  justify-content: left;  /* 横位置 */
   align-items: center;      /* 縦中央（必要なら） */
   margin: 100px 0 70px 0;
 }
