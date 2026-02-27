@@ -193,7 +193,8 @@ header {
 /* ===== Section spacing ===== */
 .gallery-section,
 .full-image {
-  padding: 80px 0;
+  padding-top: 80px;
+  padding-bottom: 0;
 }
 
 /* ===== 共通コンテナ幅 ===== */
