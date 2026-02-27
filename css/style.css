@@ -377,25 +377,7 @@ body {
   font-size: 12px;
 }
 
-/*リンクリスト*/
-
-.row {
-  display: flex;
-  align-items: center;
-}
-
-.symbol {
-  font-family: "Droog", serif; /* ← 記号のフォント */
-  font-size: 18px;
-}
-
-
-
-.link {
-  font-family: "Droog"; /* ← リンクのフォント */
-}
-
-
+/*リンク内の長い文字列を強制的に折り返す指定*/
 
 a {
   overflow-wrap: break-word;
