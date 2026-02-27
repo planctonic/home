@@ -418,6 +418,10 @@ body {
   transition: 0.3s;
 }
 
+a {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
 .link-list li a:hover {
   color: #e83929;        /* ← ホバー色 */
 }
