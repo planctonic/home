@@ -57,17 +57,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<span id="counter">0000000</span>
-
-<script>
-fetch('https://api.countapi.xyz/hit/pilonkton.github.io/home')
-.then(r => r.json())
-.then(d => {
-  document.getElementById('counter').textContent =
-    String(d.value).padStart(7,'0');
-});
-</script>
-
+<script data-goatcounter="https://pilonkton.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
   
 
