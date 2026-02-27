@@ -58,21 +58,28 @@ a:hover {
 header {
 	text-align: center;	/*内容を中央よせ*/
 }
-/* ロゴ画像の設定 */
-#logo img {
-  width: 600px;         /* 基本サイズ */
-  max-width: 100%;      /* 画面幅より大きくならない */
-  height: auto;         /* 縦横比を維持 */
-  display: block;       /* ブロック表示で余白が効くように */
-  margin: 40px 0 10px 0;  /* 上40px 下10px */
+/* ロゴ全体を中央に */
+#logo {
+  display: flex;
+  justify-content: center;  /* 横中央 */
+  align-items: center;      /* 縦中央（必要なら） */
+  margin: 40px 0 10px 0;
 }
 
-/* スマホなど小さい画面用に調整 */
+/* ロゴ画像 */
+#logo img {
+  width: 200px;      /* ←ここを変えればサイズ変更可能 */
+  max-width: 100%;   /* 画面より大きくならない */
+  height: auto;      /* 縦横比維持 */
+}
+
+
 @media (max-width: 500px) {
   #logo img {
-    width: 500px;       /* 画面幅に合わせて縮小 */
+    width: 90%;   /* 画面幅に対して90% */
   }
 }
+
 
 /*トップページのメイン画像
 ---------------------------------------------------------------------------*/
