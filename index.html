@@ -57,7 +57,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<img src="https://api.countapi.xyz/hit/pilonkton.github.io/home?format=svg" alt="counter">
+<span id="counter">0000000</span>
+
+<script>
+fetch('https://api.countapi.xyz/hit/pilonkton.github.io/home')
+.then(r => r.json())
+.then(d => {
+  document.getElementById('counter').textContent =
+    String(d.value).padStart(7,'0');
+});
+</script>
 
 
   
