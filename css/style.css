@@ -193,7 +193,7 @@ header {
 /* ===== Section spacing ===== */
 .gallery-section,
 .full-image {
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 0;
 }
 
