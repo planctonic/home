@@ -127,7 +127,7 @@ h1 {
     background: none;         /* 背景削除 */
 
     padding-bottom: 5px;     /* 線との間隔 */
-    border-bottom: 1px solid #dfdfdf;  /* 3px区切り線 */
+    border-bottom: 1px solid #262626;  /* 3px区切り線 */
 
     font-family: "Droog",
              -apple-system,
@@ -407,8 +407,8 @@ a {
 .btn {
   display: inline-block;
   font-family: "Droog", serif;
-  color: #f3f3f2;
-  background-color: #dccb18;
+  color: #dccb18;
+  background-color: #f3f3f2;
   padding: 5px 10px;
   border-radius: 0px;   /* 角丸 */
   text-decoration: none;
