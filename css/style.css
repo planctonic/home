@@ -63,7 +63,7 @@ header {
   display: flex;
   justify-content: center;  /* 横位置 */
   align-items: center;      /* 縦中央（必要なら） */
-  margin: 20px 0 60px 0;
+  margin: 90px 0 90px 0;
 }
 
 /* ロゴ画像 */
