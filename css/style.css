@@ -401,3 +401,15 @@ a {
 .link-list li a:hover {
   color: #e83929;        /* ← ホバー色 */
 }
+
+/*リンクボタン*/
+
+.btn {
+  display: inline-block;
+  font-family: "Droog", serif;
+  color: #f3f3f2;
+  background-color: #dccb18;
+  padding: 10px 20px;
+  border-radius: 8px;   /* 角丸 */
+  text-decoration: none;
+}
