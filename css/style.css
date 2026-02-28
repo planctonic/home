@@ -18,7 +18,7 @@ body {
 	
 	font-size: 17px;	/*文字サイズ*/
 	line-height: 1;		/*行間*/
-	background: #cfcfcf;	/*背景色*/
+	background: #f3f3f2;	/*背景色*/
 	
 }}
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form,select,input,textarea {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
