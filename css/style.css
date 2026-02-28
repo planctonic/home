@@ -61,14 +61,14 @@ header {
 /* ロゴ全体を中央に */
 #logo {
   display: flex;
-  justify-content: left;  /* 横位置 */
+  justify-content: center;  /* 横位置 */
   align-items: center;      /* 縦中央（必要なら） */
   margin: 20px 0 30px 0;
 }
 
 /* ロゴ画像 */
 #logo img {
-  width: 350px;      /* ←ここを変えればサイズ変更可能 */
+  width: 320px;      /* ←ここを変えればサイズ変更可能 */
   max-width: 100%;   /* 画面より大きくならない */
   height: auto;      /* 縦横比維持 */
 }
