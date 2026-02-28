@@ -408,10 +408,10 @@ a {
 
 .btn {
   display: inline-block;
-  color: #262626;
-  background-color: #878787;
+  color: #f3f3f2;
+  background-color: #e83929;
   padding: 5px 10px;
-  border-radius: 5px; /* 角丸 */
+  border-radius: 8px; /* 角丸 */
   border-radius: 0px;
   text-decoration: none;
   margin: 0 5px;
