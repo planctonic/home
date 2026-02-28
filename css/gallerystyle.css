@@ -200,8 +200,7 @@ h1 {
 /*Galleryページ
 ---------------------------------------------------------------------------*/
 
-
-/* グリッドはそのまま */
+/* ギャラリー */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -209,38 +208,63 @@ h1 {
   justify-items: center;
 }
 
-/* サムネ枠 */
-.gallery-item {
+/* サムネ */
+.item {
   position: relative;
   width: 300px;
   height: 300px;
   overflow: hidden;
 }
 
-/* 画像 */
-.gallery-item img {
+.item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 
-/* タイトル（初期は非表示） */
+/* ホバータイトル */
 .caption {
   position: absolute;
   inset: 0;
   background: rgba(0,0,0,0.6);
-  color: #fff;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: 0.3s;
 }
 
-/* hoverで表示 */
-.gallery-item:hover .caption {
+.item:hover .caption {
   opacity: 1;
+}
+
+/* モーダル */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* クリックされたとき表示 */
+.modal:target {
+  display: flex;
+}
+
+/* 拡大画像 */
+.modal img {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+/* 閉じるエリア */
+.close {
+  position: absolute;
+  inset: 0;
 }
 
 
