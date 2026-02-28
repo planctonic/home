@@ -68,13 +68,13 @@ header {
 
 /* ロゴ画像 */
 #logo img {
-  width: 320px;      /* ←ここを変えればサイズ変更可能 */
+  width: 280px;      /* ←ここを変えればサイズ変更可能 */
   max-width: 100%;   /* 画面より大きくならない */
   height: auto;      /* 縦横比維持 */
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 250px) {
   #logo img {
     width: 70%;   /* 画面幅に対して90% */
   }
