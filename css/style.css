@@ -404,19 +404,31 @@ a {
   color: #e83929;        /* ← ホバー色 */
 }
 
-/*リンクボタン*/
+/*リンクボタン===============================*/
 
+/* 共通ボタン */
 .btn {
   display: inline-block;
   color: #262626;
-  background-color: #e3e3e3;
   padding: 1px 5px;
-  border-radius: 0px;
   text-decoration: none;
   margin: 0 5px;
 }
 
-/* 中央配置用 */
-.btn-wrapper {
+/* 色パターン */
+.btn-gray {
+  background-color: #e3e3e3;
+}
+
+.btn-yellow {
+  background-color: #dccb18;
+}
+
+/* 配置パターン */
+.center {
   text-align: center;
+}
+
+.left {
+  text-align: left;
 }
