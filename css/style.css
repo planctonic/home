@@ -90,28 +90,6 @@ header {
 	margin-bottom: 40px;	/*下に空けるスペース*/
 }
 
-/*メニュー
----------------------------------------------------------------------------*/
-/*メニュー全体を囲むブロック*/
-#menubar {
-	text-align: center;		/*文字をセンタリング*/
-	font-size: 18px;		/*文字サイズ*/
-	margin-bottom: 40px;	/*下に空けるスペース*/
-}
-/*メニュー１個あたりの設定*/
-#menubar li {
-	display: inline;	/*横並びにする設定*/
-}
-#menubar li a {
-	text-decoration: none;
-	padding: 15px 30px;	/*各メニュー内の余白。上下に15px、左右に30pxあけるという意味。*/
-}
-/*マウスオン時の設定*/
-#menubar li a:hover {
-	color: #3d2d21;	/*文字色*/
-	border-bottom: 4px solid #3d2d21;	/*下線の幅、線種、色*/
-}
-
 /*コンテンツ（見出しバーや文字などが入っているブロック）
 ---------------------------------------------------------------------------*/
 
@@ -270,57 +248,6 @@ footer p.footer-note {
 	margin-top: 20px;
 	text-align: left;
 }
-/*トップページ内「更新情報・お知らせ」ブロック
----------------------------------------------------------------------------*/
-/*ブロック全体の設定*/
-#new dl {
-	padding: 0px 20px;	/*上下、左右へのブロック内の余白*/
-	margin-bottom: 20px;	/*ブロックの下(外側)に空ける余白*/
-}
-/*日付設定*/
-#new dt {
-	font-weight: bold;	/*太字にする設定。標準がいいならこの行削除。*/
-	float: left;
-	width: 8em;
-}
-/*記事設定*/
-#new dd {
-	padding-left: 8em;
-}
-
-/*テーブル
----------------------------------------------------------------------------*/
-/*テーブル１行目に入った見出し部分（※caption）*/
-.ta1 caption {
-	border: 1px solid #999;	/*テーブルの枠線の幅、線種、色*/
-	border-bottom: none;	/*下線だけ消す*/
-	text-align: left;		/*文字を左寄せ*/
-	background: #eee;		/*背景色*/
-	font-weight: bold;		/*太字に*/
-	padding: 10px;			/*ボックス内の余白*/
-}
-/*テーブル１行目に入った見出し部分（※tamidashi）*/
-.ta1 th.tamidashi {
-	width: auto;
-	text-align: left;	/*左よせ*/
-	background: #eee;	/*背景色*/
-}
-/*ta1テーブルブロック設定*/
-.ta1 {
-	table-layout: fixed;
-	width: 100%;
-	margin: 0 auto 20px;
-}
-.ta1, .ta1 td, .ta1 th {
-	word-break: break-all;
-	border: 1px solid #999;	/*テーブルの枠線の幅、線種、色*/
-	padding: 10px;			/*テーブル内の余白*/
-}
-/*テーブルの左側ボックス*/
-.ta1 th {
-	text-align: center;	/*センタリング*/
-	width: 30%;			/*幅*/
-}
 
 
 
@@ -351,25 +278,7 @@ body {
 	line-height: 1.5;	/*行間*/
 }
 
-/*メニュー
----------------------------------------------------------------------------*/
-/*メニュー１個あたりの設定*/
-#menubar li {
-	display: block;	/*縦並びにする設定*/
-	margin-bottom: 10px;
-}
-#menubar li a {
-	text-decoration: none;
-	padding: 8px 30px;	/*各メニュー内の余白。*/
-}
 
-
-	/*Galleryページ
----------------------------------------------------------------------------*/
-/*各ブロックごとの設定*/
-.list {
-	padding: 10px;	/*ボックス内の余白*/
-}
 
 
 
