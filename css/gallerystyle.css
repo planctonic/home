@@ -403,7 +403,7 @@ a {
   color: #e83929;        /* ← ホバー色 */
 }
 
-/*リンクボタン*/
+/*リンクボタン===============================*/
 
 /* 共通ボタン */
 .btn {
@@ -412,6 +412,7 @@ a {
   padding: 1px 5px;
   text-decoration: none;
   margin: 0 5px;
+  border-radius: 3px;   /* ← 追加 */
 }
 
 /* 色パターン */
@@ -420,12 +421,12 @@ a {
 }
 
 .btn-yellow {
-  background-color: #dccb18;
+  background-color: #FCD017;
 }
 
 /* ホバー時（2種類共通） */
 .btn:hover {
-  background-color: #e83929; /* 変えたい色 */
+  background-color: #FD1C58; /* 変えたい色 */
   color: #ffffff;            /* 文字色も変更 */
 }
 
