@@ -56,7 +56,7 @@ a:hover {
 ---------------------------------------------------------------------------*/
 #container {
 	max-width: 500px;	/*ブロックの最大幅*/
-	margin: 0 auto;
+	margin: 20 auto 20px auto;  /* 周りの空白 */
 	padding: 0 3%;
     background: #f3f3f2;  /* ブロック背景 */	
 }
