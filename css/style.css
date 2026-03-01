@@ -331,6 +331,7 @@ a {
   padding: 1px 5px;
   text-decoration: none;
   margin: 0 5px;
+  border-radius: 3px;   /* ← 追加 */
 }
 
 /* 色パターン */
