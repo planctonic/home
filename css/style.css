@@ -59,7 +59,7 @@ a:hover {
 	max-width: 500px;	/*ブロックの最大幅*/
 	margin: 0 auto;  /* 周りの空白 */
 	padding: 0 3%;
-    background: #f3f3f2;  /* ブロック背景 */	
+    background: red;  /* ブロック背景 */	
 }
 
 /*ヘッダー（ロゴが入った最上段のブロック）
