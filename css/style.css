@@ -74,7 +74,7 @@ header {
   display: flex;
   justify-content: center;  /* 位置 */
   align-items: center;      /* 縦中央（必要なら） */
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 /* ロゴ画像 */
@@ -100,9 +100,6 @@ header {
 /*コンテンツ（見出しバーや文字などが入っているブロック）
 ---------------------------------------------------------------------------*/
 
-#contents h1 {
-  margin: 1px 0;
-}
 
 
 /*コンテンツのh2タグの設定*/
