@@ -24,7 +24,7 @@ body {
 	/* スマホだけ */
 @media screen and (max-width: 768px) {
   body {
-    background: #f3f3f2;  /* ← スマホ用の色 */
+    background: #ffffff;  /* ← スマホ用の色 */
   }
 }
 
@@ -85,9 +85,9 @@ header {
 }
 
 
-@media (max-width: 250px) {
+@media (max-width: 230px) {
   #logo img {
-    width: 70%;   /* 画面幅に対して90% */
+    width: 60%;   /* 画面幅に対して90% */
   }
 }
 
