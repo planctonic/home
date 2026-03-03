@@ -95,7 +95,7 @@ header {
 
 @media (max-width: 768px) {
   #logo img {
-    width: 60%;   /* 画面幅に対して% */
+    width: 75%;   /* 画面幅に対して% */
   }
 }
 
