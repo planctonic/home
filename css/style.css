@@ -68,6 +68,7 @@ a:hover {
 @media (max-width: 768px) {
 	#container {
 		margin: 0 auto;  /* 上下0、左右は中央維持 */
+		padding: 0 6%; 
 	}
 }
 
