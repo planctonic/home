@@ -18,7 +18,7 @@ body {
 	
 	font-size: 17px;	/*文字サイズ*/
 	line-height: 1;		/*行間*/
-	background: #ffffff;	/*背景色*/
+	background: #F9F9FA;	/*背景色*/
 
 }
 	/* スマホだけ */
@@ -56,7 +56,7 @@ a:hover {
 /*コンテナー（ホームページを囲む一番外側のブロック）
 ---------------------------------------------------------------------------*/
 #container {
-	max-width: 600px;	/*ブロックの最大幅*/
+	max-width: 500px;	/*ブロックの最大幅*/
 	margin: 0 auto; /* 周りの空白 */
 	padding: 0 3%;
     background: #ffffff;  /* ブロック背景 */	
