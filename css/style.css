@@ -57,7 +57,7 @@ a:hover {
 ---------------------------------------------------------------------------*/
 #container {
 	max-width: 600px;	/*ブロックの最大幅*/
-	margin: 0;        /* ← 左寄せ */  /* 周りの空白 */
+	margin: 0 auto; /* 周りの空白 */
 	padding: 0 3%;
     background: #ffffff;  /* ブロック背景 */	
 }
@@ -71,7 +71,7 @@ header {
 /* ロゴ全体を中央に */
 #logo {
   display: flex;
-  justify-content:　left;  /* 位置 */
+  justify-content:　center;  /* 位置 */
   align-items: center;      /* 縦中央（必要なら） */
   padding: 60px 0;
 }
@@ -126,6 +126,8 @@ header {
              "Yu Gothic",
              Meiryo,
              sans-serif;
+
+	         text-align: center;  /* ← これを追加 */
 }
 
 
