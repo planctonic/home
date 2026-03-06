@@ -353,7 +353,7 @@ a {
 
 /* ホバー時（2種類共通） */
 .btn:hover {
-  background-color: #0073BA; /* 変えたい色 */
+  background-color: #e83929; /* 変えたい色 */
   color: #ffffff;            /* 文字色も変更 */
 }
 
