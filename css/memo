@@ -18,13 +18,13 @@ body {
 	
 	font-size: 17px;	/*文字サイズ*/
 	line-height: 1;		/*行間*/
-	background: #DEDEDB;	/*背景色*/
+	background: #719bad;	/*背景色*/
 
 }
 	/* スマホだけ */
 @media screen and (max-width: 768px) {
   body {
-    background: #f3f3f2;  /* ← スマホ用の色 */
+    background: #ffffff;  /* ← スマホ用の色 */
   }
 }
 
@@ -35,6 +35,354 @@ ul {list-style-type: none;}
 ol {padding-left: 40px;padding-bottom: 15px;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;}
 table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
+iframe {width: 100%;}
+
+img {
+	/* 保存禁止 */
+	pointer-events: none;
+}
+/* リンク（全般）設定 */
+a {
+  color: #dccb18;
+  text-decoration: none;
+  transition: 0.3s;   /* なめらかに変化させる */
+}
+
+/* ホバー時 */
+a:hover {
+  color: #e83929;     /* ← 変更 */
+}
+
+/*コンテナー（ホームページを囲む一番外側のブロック）
+---------------------------------------------------------------------------*/
+#container {
+	max-width: 500px;	/*ブロックの最大幅*/
+	margin: 50px auto; /* 周りの空白 */
+	padding: 0 3%;
+    background: #ffffff;  /* ブロック背景 */	
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* スマホ用 */
+@media (max-width: 768px) {
+	#container {
+		margin: 0 auto;  /* 上下0、左右は中央維持 */
+		padding: 0 6%; 
+	}
+}
+
+/*ヘッダー（ロゴが入った最上段のブロック）
+---------------------------------------------------------------------------*/
+/*headerブロック*/
+header {
+	text-align: center;	/*内容を中央よせ*/
+}
+/* ロゴ全体を中央に */
+#logo {
+  display: flex;
+  justify-content: center;  /* 位置 */
+  align-items: center;      /* 縦中央（必要なら） */
+  padding: 55px 0 5px 0;
+}
+
+/* ロゴ画像 */
+#logo img {
+  width: 350px;      /* ←ここを変えればサイズ変更可能 */
+  max-width: 100%;   /* 画面より大きくならない */
+  height: auto;      /* 縦横比維持 */
+}
+
+
+@media (max-width: 768px) {
+  #logo img {
+    width: 80%;   /* 画面幅に対して% */
+  }
+}
+
+
+#logo {
+  margin: 0;
+}
+
+
+/*コンテンツ（見出しバーや文字などが入っているブロック）
+---------------------------------------------------------------------------*/
+
+
+
+/*コンテンツのh2タグの設定*/
+#contents h2 {
+    clear: both;
+    margin-bottom: 30px;
+
+    color: #262626;              /* 文字色 */
+    background: none;         /* 背景削除 */
+
+    padding-bottom: 5px;     /* 線との間隔 */
+    border-bottom: 1px solid #262626;  /* 3px区切り線 */
+
+    font-family: "Droog",
+             -apple-system,
+             BlinkMacSystemFont,
+             "Segoe UI",
+             "Hiragino Kaku Gothic ProN",
+             "Yu Gothic",
+             Meiryo,
+             sans-serif;
+
+	         text-align: center;  /* ← これを追加 */
+}
+
+
+
+/*コンテンツのh3タグの設定*/
+#contents h3 {
+	clear: both;
+    margin-bottom: 30px;
+
+    color: #f3f3f2;              /* 文字色 */
+    background: none;         /* 背景削除 */
+
+    padding-bottom: 5px;     /* 線との間隔 */
+    border-bottom: 1px solid #f3f3f2;  /* 3px区切り線 */
+
+    font-family: "Droog",
+             -apple-system,
+             BlinkMacSystemFont,
+             "Segoe UI",
+             "Hiragino Kaku Gothic ProN",
+             "Yu Gothic",
+             Meiryo,
+             sans-serif;
+}
+
+
+
+#contents h4 {
+  display: inline-block;
+  background-color: f4f4f4;
+}
+
+
+
+/*コンテンツのp(段落)タグ設定*/
+#contents p {
+	padding: 0px 20px 20px;	/*上、左右、下への余白*/
+}
+/*他。微調整。*/
+#contents p + p {
+	margin-top: -5px;
+}
+#contents h2 + p,
+#contents h3 + p {
+	margin-top: -10px;
+}
+#contents section + section {
+	margin-top: 30px;
+}
+
+/*区切り線*/
+.divider {
+  border: none;              /* デフォルト線を消す */
+  height: 1px;               /* 太さ */
+  background-color: #262626; /* 色 */
+  margin: 30px 0;            /* 上下余白 */
+}
+
+
+
+/*Galleryページ
+---------------------------------------------------------------------------*/
+
+
+/* ===== Section spacing ===== */
+.gallery-section,
+.full-image {
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+
+/* ===== 共通コンテナ幅 ===== */
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ===== Grid ===== */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ===== Single Image ===== */
+.full-image img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+
+/*フッター(ページ最下部のcopyrightのパーツ)設定
+---------------------------------------------------------------------------*/
+footer {
+	clear: both;
+	text-align: center;	/*文字をセンタリング*/
+	padding: 30px 0px 10px;	/*上、左右、下へのボックス内の余白*/
+	color: #BABABA;   /* ← 通常テキスト */
+}
+footer a {
+	text-decoration: none;
+	border: none;
+	color: #BABABA;   /* リンク色 */
+  text-decoration: none;    /* 下線なし */
+}
+footer .pr {
+	display: block;
+}
+footer p.footer-note {
+	font-size: 12px;
+	color: #262626;
+	line-height: 1.6;
+	margin-top: 20px;
+	text-align: left;
+}
+
+
+
+/*その他
+---------------------------------------------------------------------------*/
+.look {background: #e5e5e5;padding: 5px 10px;border-radius: 4px;}
+.mb15,.mb1em {margin-bottom: 15px;}
+.color1 {color: #3d2d21;}
+.pr {font-size: 12px;}
+.wl {width: 96%;}
+.ws {width: 50%;}
+.c {text-align: center;}
+.r {text-align: right;}
+.l {text-align: left;}
+
+
+
+/*画面幅580px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:580px){
+}
+
+
+/*全体の設定
+---------------------------------------------------------------------------*/
+body {
+	font-size: 16px;	/*文字サイズ*/
+	line-height: 1.5;	/*行間*/
+}
+
+
+
+
+
+
+/*その他
+---------------------------------------------------------------------------*/
+.ws,.wl {width: 94%;}
+
+}
+
+	/*Galleryページ背景
+---------------------------------------------------------------------------*/
+
+.bg-fixed {
+  background-image: url("../images/f_background.png");
+  background-position: center;       /* 中央配置 */
+  background-repeat: no-repeat;
+  background-size: cover;            /* 画面いっぱいに広げる */
+  background-attachment: fixed;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+/*リンク内の長い文字列を強制的に折り返す指定*/
+
+a {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.link-list li a:hover {
+  color: #e83929;        /* ← ホバー色 */
+}
+
+/*リンクボタン===============================*/
+
+/* 共通ボタン */
+.btn {
+  display: inline-block;
+  color: #262626;
+  padding: 0px 5px;
+  text-decoration: none;
+  margin: 0 5px;
+  border-radius: 1px;   /* kadomaru? */
+}
+
+/* 色パターン */
+.btn-gray {
+  background-color: #C1C9D6;
+}
+
+.btn-yellow {
+  background-color: #efefef;
+}
+
+/* ホバー時（2種類共通） */
+.btn:hover {
+  background-color: #e83929; /* 変えたい色 */
+  color: #ffffff;            /* 文字色も変更 */
+}
+
+/* 配置パターン */
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+/* 三色ライン */
+
+.lines {
+  display: flex;
+  gap: 7px;
+  width: fit-content;
+  margin: 0 auto; /* 横中央 */
+}
+
+.line {
+  width: 60px;
+  height: 10px;
+}
+
+.line1 { background: #262626; }
+.line2 { background: #C1C9D6; }
+.line3 { background: #FF4D4B; }table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
 iframe {width: 100%;}
 
 img {
