@@ -60,7 +60,7 @@ a:hover {
 	margin: 50px auto; /* 周りの空白 */
 	padding: 0 3%;
     background: #ffffff;  /* ブロック背景 */	
-	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -83,7 +83,7 @@ header {
   display: flex;
   justify-content: center;  /* 位置 */
   align-items: center;      /* 縦中央（必要なら） */
-  padding: 55px 0 15px 0;
+  padding: 55px 0 5px 0;
 }
 
 /* ロゴ画像 */
